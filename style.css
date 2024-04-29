@@ -3,12 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*impostazioni del header*/
 header{
     text-align: center;
-    margin: 0 10%;
+    margin: 2% 12% ;
 }
-h1{
+
+ header h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font: bold;
     color: palevioletred;
 }
+
+/*impostazioni del main*/
+
+main{
+    color: white;
+    margin: 0% 12%;
+}
+
+.member{
+    margin: 20px 10px;
+    width: calc(88% / 3);
+    background-color: black;
+    display: inline-block;
+}
+
+.foto{
+    float: left;
+    width: 80px;
+    
+}
+span, a{
+    display: block;
+    margin: 10px 10px 5px 90px;
+
+}
+
+h3{
+    margin: 10px 10px 5px 90px;
+
+}
+
