@@ -10,19 +10,23 @@ header{
     margin: 1% 12% ;
 }
 
- header h1{
+header>h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font: bold;
     color: palevioletred;
 }
 
-/*impostazioni del main*/
+/*impostazioni generali del main*/
 
 main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     margin: 0% 12%;
 }
 
+
+
+/*section of every member */
 .member{
     margin: 20px 10px;
     width: calc(88% / 3);
@@ -30,20 +34,23 @@ main{
     display: inline-block;
 }
 
+
+/*foto*/
 .foto{
     float: left;
     width: 90px;
-    
 }
-h3{
-    margin: 10px 0;
-}
+
+
+/*impostazioni del testo riguardante ogni membro */
 .testo{
     display: block;
-    margin-left: 100px;
-    margin-bottom: 10px;
+    margin: 0px 10px 10px 100px;
     line-height: 20px;
+}
 
+h3{
+    margin: 10px 0;
 }
 
 .profession, .name{
