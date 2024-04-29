@@ -7,7 +7,7 @@
 /*impostazioni del header*/
 header{
     text-align: center;
-    margin: 2% 12% ;
+    margin: 1% 12% ;
 }
 
  header h1{
@@ -32,17 +32,24 @@ main{
 
 .foto{
     float: left;
-    width: 80px;
+    width: 90px;
     
 }
-span, a{
-    display: block;
-    margin: 10px 10px 5px 90px;
-
-}
-
 h3{
-    margin: 10px 10px 5px 90px;
+    margin: 10px 0;
+}
+.testo{
+    display: block;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    line-height: 20px;
 
 }
 
+.profession, .name{
+    display: block;
+}
+
+a{
+    color: rgb(0, 204, 255);
+}
